@@ -8,10 +8,10 @@ namespace WebForUsers.ViewModels
 {
     public class LoginModel
     {
-        [Required(ErrorMessage = "Не указан Email")]
+        [Required(ErrorMessage = "email not specified")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Не указан пароль")]
+        [Required(ErrorMessage = "password not specified")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
     }
