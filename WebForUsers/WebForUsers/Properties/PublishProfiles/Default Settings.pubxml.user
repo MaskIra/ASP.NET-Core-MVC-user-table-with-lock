@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApOFxf5YkJEel+7bXvBDpIgAAAAACAAAAAAAQZgAAAAEAACAAAADsBtOSDhn2rPmUU9T1SJ2vKnlAECKrp07P4cQ+5FVA0wAAAAAOgAAAAAIAACAAAADBTVhA00P8g+sMOFi3VV6h6qy1M2qgN/knxUX6lozcbCAAAAA8wDJk9BS59frSWRxguaznB8cX5KSf30cwqQCpC1AtTEAAAAAH9Gcd1fmPfU56IIAPrALEVAG3hjNBfIECrNIc76ym19UiAZ8z1/9eTzNl4yWT08druYrv9PMq+/eDMMO8ke7r</EncryptedPassword>
+    <History>True|2022-04-12T07:33:59.5837749Z;True|2022-04-12T10:28:07.6060441+03:00;True|2022-04-12T10:19:38.3936996+03:00;True|2022-04-12T10:16:34.6663070+03:00;True|2022-04-11T18:58:15.3681548+03:00;True|2022-04-11T18:53:23.7373426+03:00;True|2022-04-11T18:15:25.4823137+03:00;False|2022-04-11T18:11:35.1868838+03:00;False|2022-04-11T18:05:12.2915303+03:00;False|2022-04-11T17:52:30.0516346+03:00;False|2022-04-11T17:40:19.7416520+03:00;False|2022-04-11T17:28:23.0925389+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL5063.site4now.net%3bInitial Catalog=db_a85656_users%3bUser Id=db_a85656_users_admin%3bPassword=Admin1Admin2</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebForUsers.Models.ApplicationContext">
+      <Value>Data Source=SQL5063.site4now.net%3bInitial Catalog=db_a85656_users%3bUser Id=db_a85656_users_admin%3bPassword=Admin1Admin2</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
